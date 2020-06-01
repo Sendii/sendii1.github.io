@@ -609,6 +609,12 @@ footer {
     opacity: 0;
     margin-right: 25px;
     width: calc(100% / 3 - 25px);
+    transition: .9s;
+  }
+  main #creation figure:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    cursor: pointer;
   }
   main #creation figure:nth-child(3n+3) {
     margin-right: 0;
